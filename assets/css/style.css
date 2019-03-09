@@ -1,0 +1,24 @@
+#mainNav{
+    background: #1A023B;
+}
+
+.cusBg{
+    background-color:  #7126EE; 
+}
+
+.highlight{
+    color: #907FFC; 
+}
+.nav-item{
+    transition:  all .5s;
+}
+.nav-item:hover{
+    border-bottom:  1px solid rgb(21, 98, 241);
+    background-color:  #470D9D;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+
+.carouselSection{
+    background: linear-gradient(80deg, #470D9D, #7126EE) ;
+}
