@@ -13,6 +13,9 @@
 .cusBg{
     background-color:  #7126EE; 
 }
+#mc-embedded-subscribe{
+    background-color:  #7126EE; 
+}
 .highlight{
     color: #907FFC; 
 }
@@ -37,6 +40,16 @@
     border-radius: 5px;
     padding: 0px 20px;
 }
+
+/* Style from mail Chimp */
+#mc_embed_signup{
+    background:#fff; 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif; 
+    width:100%;
+}
+/* end of mail chimp styling */
+
 .carouselSection{
     background: linear-gradient(80deg, #470D9D, #7126EE) ;
 }
