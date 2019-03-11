@@ -1,13 +1,32 @@
-#mainNav{
+.nav-menu{
     background: #1A023B;
+    padding: 15px 30px;
+    transition:  all .5s;
 }
+
+.custom-navbar {
+    padding: 7px 30px;
+    /* opacity: .8; */
+    background-color:  rgb(95, 52, 165); 
+  }
 
 .cusBg{
     background-color:  #7126EE; 
 }
-
 .highlight{
     color: #907FFC; 
+}
+.heading{
+    /* font-family: 'Trebuchet MS', sans-serif; */
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #907FFC; 
+    display: inline-block;
+    transition: all 0.9s;
+}
+.heading:hover{
+    border-bottom: 1px solid  #907FFC;
 }
 .nav-item{
     transition:  all .5s;
@@ -18,7 +37,21 @@
     border-radius: 5px;
     padding: 0px 20px;
 }
-
 .carouselSection{
     background: linear-gradient(80deg, #470D9D, #7126EE) ;
+}
+.custom-shadow{
+    box-shadow: 2px 4px 1px 0px #999;
+}
+/* progress Section */
+.progressSection{
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('../images/bg1.jpeg') fixed center no-repeat /cover;
+    clip-path: polygon(0 0, 100%  0, 100% 100%, 0 90%);
+}
+/* End of Progress Section */
+
+@media(min-width: 992px){
+    .wc-height{
+        height: 180px ;
+    }
 }
