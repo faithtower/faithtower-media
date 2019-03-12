@@ -1,3 +1,8 @@
+body{
+    margin: 0px;
+    padding: 0pc;
+}
+
 .nav-menu{
     background: #1A023B;
     padding: 15px 30px;
@@ -24,7 +29,7 @@
     font-family: cursive;
     font-size: 40px;
     font-weight: lighter;
-    color: #907FFC; 
+    color: #7126EE;  
     display: inline-block;
     transition: all 0.9s;
 }
@@ -62,6 +67,14 @@
     clip-path: polygon(0 0, 100%  0, 100% 100%, 0 90%);
 }
 /* End of Progress Section */
+
+.gallery-img img{
+    transition: all .5s;
+}
+
+.gallery-img img:hover{
+    transform: scale(1.05);
+}
 
 @media(min-width: 992px){
     .wc-height{
