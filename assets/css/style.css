@@ -1,83 +1,105 @@
-body{
+body {
     margin: 0px;
     padding: 0pc;
 }
 
-.nav-menu{
+.nav-menu {
     background: #1A023B;
     padding: 15px 30px;
-    transition:  all .5s;
+    transition: all .5s;
 }
 
 .custom-navbar {
     padding: 7px 30px;
     /* opacity: .8; */
-    background-color:  rgb(95, 52, 165); 
-  }
+    background-color: rgb(95, 52, 165);
+}
 
-.cusBg{
-    background-color:  #7126EE; 
+.cusBg {
+    background-color: #7126EE;
 }
-#mc-embedded-subscribe{
-    background-color:  #7126EE; 
+
+#mc-embedded-subscribe {
+    background-color: #7126EE;
 }
-.highlight{
-    color: #907FFC; 
+
+.highlight {
+    color: #907FFC;
 }
-.heading{
+
+.heading {
     /* font-family: 'Trebuchet MS', sans-serif; */
-    font-family: cursive;
-    font-size: 40px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
     font-weight: lighter;
-    color: #7126EE;  
+    color: #7126EE;
     display: inline-block;
     transition: all 0.9s;
 }
-.heading:hover{
-    border-bottom: 1px solid  #907FFC;
+
+.heading:hover {
+    border-bottom: 1px solid #907FFC;
 }
-.nav-item{
-    transition:  all .5s;
+
+.nav-item {
+    transition: all .5s;
 }
-.nav-item:hover{
-    border-bottom:  1px solid rgb(21, 98, 241);
-    background-color:  #470D9D;
+
+.nav-item:hover {
+    border-bottom: 1px solid rgb(21, 98, 241);
+    background-color: #470D9D;
     border-radius: 5px;
     padding: 0px 20px;
 }
 
 /* Style from mail Chimp */
-#mc_embed_signup{
-    background:#fff; 
-    clear:left; 
-    font:14px Helvetica,Arial,sans-serif; 
-    width:100%;
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 100%;
 }
+
 /* end of mail chimp styling */
 
-.carouselSection{
-    background: linear-gradient(80deg, #470D9D, #7126EE) ;
+/* .carouselSection {
+    background: linear-gradient(80deg, rgb(30, 26, 36), rgb(69, 58, 87));
+} */
+
+.page-cover {
+    background: linear-gradient(80deg, rgba(30, 26, 36, 0.7), rgba(25, 18, 39, 0.8)), url('../images/imac-wallpaper-1366x768.jpg');
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.custom-shadow{
+
+.slogan {
+    color: rgb(168, 167, 167);
+}
+
+.custom-shadow {
     box-shadow: 2px 4px 1px 0px #999;
 }
+
 /* progress Section */
-.progressSection{
+.progressSection {
     background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('../images/bg1.jpeg') fixed center no-repeat /cover;
-    clip-path: polygon(0 0, 100%  0, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
+
 /* End of Progress Section */
 
-.gallery-img img{
+.gallery-img img {
     transition: all .5s;
 }
 
-.gallery-img img:hover{
+.gallery-img img:hover {
     transform: scale(1.05);
 }
 
-@media(min-width: 992px){
-    .wc-height{
-        height: 180px ;
+@media(min-width: 992px) {
+    .wc-height {
+        height: 180px;
     }
 }
