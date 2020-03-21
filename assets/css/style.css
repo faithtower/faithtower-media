@@ -86,13 +86,6 @@ a {
     box-shadow: 2px 4px 1px 0px #999;
 }
 
-/* progress Section */
-.progressSection {
-    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('../images/bg1.jpeg') fixed center no-repeat /cover;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-}
-
-/* End of Progress Section */
 
 
 /* skills section */
@@ -106,6 +99,27 @@ a {
 }
 
 /* end of skills section */
+
+/* projects section */
+.sample {
+    transition: all .5s;
+}
+
+.sample:hover {
+    transform: translateY(-1);
+    transform: scale(1.1);
+    box-shadow: 2px 4px 10px 0px rgb(216, 213, 213);
+}
+
+/* end of projects section */
+
+/* progress Section */
+.progressSection {
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('../images/bg1.jpeg') fixed center no-repeat /cover;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+/* End of Progress Section */
 
 .gallery-img img {
     transition: all .5s;
